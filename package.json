@@ -1,0 +1,39 @@
+{
+  "name": "opentalent-network",
+  "version": "1.0.0",
+  "description": "Une application Node.js pour vérifier l'état des applications et services Opentalent",
+  "homepage": "https://github.com/LittleJ/opentalent-network",
+  "bugs": {
+    "url": "https://github.com/LittleJ/opentalent-network/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleJ/opentalent-network.git"
+  },
+  "main": "./bin/status.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "opentalent-network": "./bin/check.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "opentalent",
+    "websites",
+    "softwares"
+  ],
+  "author": "Little J (https://www.littlej.fr)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "execution-time": "^1.3.0",
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.0",
+    "round-to": "^3.0.0"
+  },
+  "devDependencies": {}
+}
